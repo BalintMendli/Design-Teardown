@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 176px;
+  background-color: #dfdfdf;
+}
+
+.menuitem {
+  flex: 1;
+  background-color: #aaaaaa;
+  height: 120px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.logo {
+  flex: 1.2;
+  background-color: #8d8d8d;
+  height: 60px;
+  width: 100px;
+  margin: 0 20px;
+}
+
+.button {
+  flex: 0.8;
+  background-color: #c0c0c0;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+.main {
+  height: 755px;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  position: relative;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+}
+
+.title {
+  width: 300px;
+  height: 80px;
+  background-color: #5f5f5f;
+  margin: 20px auto;
+}
+
+.red {
+  position: absolute;
+  top: 210px;
+  right: 45px;
+  width: 200px;
+  height: 60px;
+  background-color: #bbbbbb;
+}
+
+.author {
+  position: absolute;
+  left: 60px;
+  top: 40px;
+  width: 260px;
+  height: 50px;
+  background-color: #bbbbbb;
+}
+
+.article {
+  position: absolute;
+  left: 60px;
+  top: 120px;
+  width: 560px;
+  height: 180px;
+  background-color: #999999;
+}
