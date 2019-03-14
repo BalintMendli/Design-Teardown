@@ -35,7 +35,7 @@ body {
 }
 
 .main {
-  height: 755px;
+  height: 425px;
   display: flex;
 }
 
@@ -49,7 +49,7 @@ body {
   position: relative;
 }
 
-.title {
+.main-title {
   width: 300px;
   height: 80px;
   background-color: #5f5f5f;
@@ -81,4 +81,142 @@ body {
   width: 560px;
   height: 180px;
   background-color: #999999;
+}
+
+.hero {
+  height: 530px;
+  position: relative;
+  background-color: #bbbbbb;
+}
+
+.text {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 600px;
+  height: 270px;
+  background-color: #a3a3a3;
+}
+
+.cta {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  width: 300px;
+  height: 70px;
+  background-color: #424242;
+}
+
+.img {
+  position: absolute;
+  top: -50px;
+  right: 120px;
+  width: 150px;
+  height: 180px;
+  background-color: #818181;
+}
+
+.latest {
+  height: 670px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.post {
+  flex: 1;
+}
+
+.ad {
+  flex: 1;
+}
+
+.title {
+  width: 300px;
+  height: 80px;
+  background-color: #797979;
+  margin: 60px auto;
+}
+
+.post-text {
+  width: 300px;
+  height: 300px;
+  background-color: #adadad;
+  margin: 60px auto;
+}
+
+.banner {
+  width: 300px;
+  height: 300px;
+  background-color: #858585;
+  margin: 60px auto;
+}
+
+.big-banner {
+  flex: 2;
+  width: 600;
+  height: 600px;
+  background-color: #858585;
+  margin: 60px;
+}
+
+.conf {
+  height: 875px;
+  background-color: #979797;
+  padding: 80px;
+}
+
+.conf-title {
+  width: 600px;
+  height: 80px;
+  background-color: #797979;
+  margin: 80px auto;
+}
+
+.conf-text {
+  width: 600px;
+  height: 200px;
+  background-color: #adadad;
+  margin: 60px auto;
+}
+
+.conf-cta {
+  width: 300px;
+  height: 80px;
+  background-color: #363636;
+  margin: 60px auto;
+}
+
+.conf-img {
+  width: 500px;
+  height: 300px;
+  background-color: #838383;
+  margin: 60px auto;
+}
+
+.person {
+  height: 320px;
+  display: flex;
+  align-items: center;
+}
+
+.person-img {
+  flex: 1;
+}
+
+.person-text {
+  flex: 4;
+}
+
+.person-img-inner {
+  width: 200px;
+  height: 200px;
+  background-color: #838383;
+  margin: auto;
+}
+
+.person-text-inner {
+  width: 800px;
+  height: 200px;
+  background-color: #bdbdbd;
+  margin-right: 100px;
 }
