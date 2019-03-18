@@ -1,6 +1,15 @@
+html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 .header {
@@ -35,18 +44,21 @@ body {
 }
 
 .main {
-  height: 425px;
+  height: 375px;
   display: flex;
 }
 
 .left {
   flex: 1;
-  position: relative;
+  float: left;
+  width: 50%;
+  padding: 30px;
 }
 
 .right {
   flex: 1;
-  position: relative;
+  float: left;
+  padding: 30px;
 }
 
 .main-title {
@@ -56,100 +68,62 @@ body {
   margin: 20px auto;
 }
 
-.red {
-  position: absolute;
-  top: 210px;
-  right: 45px;
-  width: 200px;
-  height: 60px;
-  background-color: #bbbbbb;
-}
-
 .author {
-  position: absolute;
-  left: 60px;
-  top: 40px;
   width: 260px;
   height: 50px;
   background-color: #bbbbbb;
 }
 
 .article {
-  position: absolute;
-  left: 60px;
-  top: 120px;
+  margin-top: 40px;
   width: 560px;
   height: 180px;
   background-color: #999999;
 }
 
 .hero {
-  margin-left: 80px;
+  padding: 20px 0;
   height: 530px;
   width: 100%;
-  background-color: white;
-  display: inline-block;
 }
+
 .post1 {
-  position: absolute;
-  margin-left: 0.5%;
+  float: left;
+  margin: 20px 4%;
+  padding: 45px 2%;
   height: 530px;
-  width: 350px;
+  width: 25%;
   background-color: #cac8c8;
 }
+
 .post2 {
-  position: absolute;
-  margin-left: 33%;
-
+  float: left;
+  margin: 20px 4%;
+  padding: 45px 2%;
   height: 530px;
-  width: 350px;
+  width: 25%;
   background-color: #cac8c8;
 }
+
 .post3 {
-  position: absolute;
-  margin-left: 66%;
-
+  float: left;
+  margin: 20px 4%;
+  padding: 45px 2%;
   height: 530px;
-  width: 350px;
+  width: 25%;
   background-color: #cac8c8;
 }
-.pTitle{
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 20px;
 
+.pTitle {
   height: 190px;
-  width: 290px;
   background-color: #929292;
 }
-.pText{
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 250px;
 
+.pText {
   height: 210px;
-  width: 290px;
+  margin-top: 40px;
   background-color: #b6b6b6;
 }
-.pTitle1{
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 20px;
-
-  height: 90px;
-  width: 290px;
-  background-color: #929292;
-}
-.pText1{
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 150px;
-
-  height: 310px;
-  width: 290px;
-  background-color: #b6b6b6;
-}
-
 
 .text {
   position: absolute;
@@ -182,8 +156,7 @@ body {
   height: 670px;
   display: flex;
   margin-bottom: 110px;
-  padding-left: 60px;
-
+  clear: both;
 }
 
 .post {
@@ -198,7 +171,6 @@ body {
   width: 300px;
   height: 260px;
   background-color: #797979;
-  /* margin: 60px auto; */
   margin-top: 60px;
 }
 
@@ -206,7 +178,6 @@ body {
   width: 300px;
   height: 400px;
   background-color: #adadad;
-  /* margin: 60px auto; */
 }
 
 .banner {
@@ -217,8 +188,7 @@ body {
 }
 
 .big-banner {
-  flex: 2;
-  width: 600;
+  flex: 1.7;
   height: 360px;
   background-color: #858585;
   margin: 60px;
@@ -228,42 +198,41 @@ body {
 .conf {
   height: 875px;
   background-color: #979797;
-  padding: 80px;
+  padding: 60px;
 }
 
 .conf-title {
   width: 600px;
   height: 80px;
   background-color: #797979;
-  margin: 80px auto;
+  margin: 0 auto 40px auto;
 }
 
 .conf-text {
   width: 600px;
   height: 200px;
   background-color: #adadad;
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .conf-cta {
   width: 300px;
   height: 80px;
   background-color: #363636;
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .conf-img {
   width: 500px;
   height: 300px;
   background-color: #838383;
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .person {
   height: 320px;
   display: flex;
   align-items: center;
-
 }
 
 .person-img {
@@ -289,46 +258,43 @@ body {
 }
 
 .preFooter {
-  height: 500px;
+  height: 200px;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 .book {
-  position: absolute;
-  margin-left: 69%;
+  position: relative;
+  top:-170px;
+  left: 70%;
   z-index: 1;
   height: 300px;
   width: 350px;
   background-color: #636363;
 }
 
-
 .colorBar {
-  position: absolute;
-  margin-top: 190px;
-
+  margin-top: 160px;
+  margin-bottom: 50px;
+  padding: 20px;
   height: 310px;
   width: 100%;
   background-color: #929292;
 }
 
 .colBarText {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 30px;
-
-
+  position: relative;
+  top: -300px;
   height: 270px;
   width: 55%;
   background-color: #494949;
 }
+
 footer {
   height: 760px;
   width: 100%;
   background-color: #8b8b8b;
-
 }
+
 .fTop {
   height: 380px;
   width: 100%;
