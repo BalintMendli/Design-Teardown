@@ -86,19 +86,20 @@ body {
 .hero {
   margin-left: 80px;
   height: 530px;
-  position: relative;
+  width: 100%;
   background-color: white;
+  display: inline-block;
 }
 .post1 {
   position: absolute;
-  margin-left: 20px;
+  margin-left: 0.5%;
   height: 530px;
   width: 350px;
   background-color: #cac8c8;
 }
 .post2 {
   position: absolute;
-  margin-left: 380px;
+  margin-left: 33%;
 
   height: 530px;
   width: 350px;
@@ -106,7 +107,7 @@ body {
 }
 .post3 {
   position: absolute;
-  margin-left: 740px;
+  margin-left: 66%;
 
   height: 530px;
   width: 350px;
